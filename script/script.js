@@ -8,8 +8,6 @@ i = 0
 while( i < listProducts.length){
     list += `<li>${listProducts[i]}</li>`
     i++
-
-    i === listProducts.length
 }
 list += "</ul>"
 
